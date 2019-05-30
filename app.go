@@ -33,7 +33,7 @@ func NewApp() (app struct {
 	root string // root directory
 	port int
 }, err error) {
-	if app.root, err = xii.AsString("DALERI_MEGA_WEBAPP_ROOT", xii.StringOpts{DefaultValue: "./webapp"}); err != nil {
+	if app.root, err = xii.AsString("DALERI_MEGA_WEBAPP_ROOT", xii.StringOpts{DefaultValue: "./public"}); err != nil {
 		return app, err
 	}
 	log.Printf("[app] %-30s == %q\n", "DALERI_MEGA_WEBAPP_ROOT", app.root)
