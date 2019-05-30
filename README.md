@@ -23,13 +23,13 @@ Install the dependencies...
 
 ```bash
 cd daleri-mega
-npm install
+yarn install
 ```
 
 ...then start [Rollup](https://rollupjs.org):
 
 ```bash
-npm run dev
+yarn run dev
 ```
 
 Navigate to [localhost:5000](http://localhost:5000).
@@ -44,7 +44,7 @@ Edit a component file in `src`, save it, and reload the page to see your changes
 Install `now` if you haven't already:
 
 ```bash
-npm install -g now
+yarn install -g now
 ```
 
 Then, from within your project folder:
@@ -60,12 +60,12 @@ As an alternative, use the [Now desktop client](https://zeit.co/download) and si
 Install `surge` if you haven't already:
 
 ```bash
-npm install -g surge
+yarn add -g surge
 ```
 
 Then, from within your project folder:
 
 ```bash
-npm run build
+yarn run build
 surge public
 ```
