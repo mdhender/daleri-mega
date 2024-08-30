@@ -12,7 +12,7 @@
     "serialize-javascript": "^3.1.0",
     "set-value": "^4.0.1",
     "sirv-cli": "^0.4.5",
-    "svelte": "^3.49.0"
+    "svelte": "^4.2.19"
   },
   "scripts": {
     "build": "rollup -c",
